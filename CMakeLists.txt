@@ -5,9 +5,6 @@ include(pico_sdk_import.cmake)
 set(FREERTOS_KERNEL_PATH ${CMAKE_CURRENT_LIST_DIR}/freertos)
 include(FreeRTOS_Kernel_import.cmake)
 
-SET(DEBUG_ON_PICO ON)
-SET(PICO_BOARD "pico")
-
 project(debugprobe)
 
 pico_sdk_init()
